@@ -1,0 +1,48 @@
+class GeradorDePadroes{
+	public static void main(String[] args){
+
+		int opc = 0;
+
+		System.out.println("MENU DE OPÇÔES");
+		System.out.println("=============================");
+		System.out.println("1 - padrão");
+		System.out.println("2 - padrão");
+		System.out.println("3 - padrão");
+		System.out.println("4 - padrão");
+		System.out.println("5 - padrão");
+		System.out.println("=============================");
+
+		Scanner teclado = new Scanner(System.in);
+		opc = teclado.nextInt();
+
+
+
+		while(opc != 6){
+			
+			if(opc == 1){
+
+				for(int i = 0; i < 100; i++){
+					if(i%2 == 0){
+						System.out.println("**");
+					}else{
+						System.out.println("*");
+					}
+				}
+
+			}else if(opc == 2){
+
+			}else if(opc == 3){
+
+			}else if(opc == 4){
+
+			}else if(opc == 5){
+
+			}
+
+
+		}	
+
+
+
+	}
+}
